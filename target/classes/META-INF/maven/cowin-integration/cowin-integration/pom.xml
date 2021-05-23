@@ -4,8 +4,16 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>cowin-integration</groupId>
 	<artifactId>cowin-integration</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>2.1.7.RELEASE</version>
 	<name>cowin-integration</name>
+
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<java.version>11</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
 
 	<dependencies>
 
@@ -15,6 +23,7 @@
 			<artifactId>spring-boot-starter</artifactId>
 			<version>2.4.5</version>
 		</dependency>
+
 
 		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
 		<dependency>

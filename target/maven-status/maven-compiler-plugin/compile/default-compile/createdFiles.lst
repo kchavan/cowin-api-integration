@@ -1,0 +1,7 @@
+cowin\slots\VaccineService.class
+cowin\slots\CheckSlotController.class
+cowin\springboot\starter\CowinSlopApp.class
+cowin\slots\Main.class
+cowin\slots\Root.class
+cowin\slots\Center.class
+cowin\slots\Session.class
