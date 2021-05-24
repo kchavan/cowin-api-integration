@@ -105,6 +105,8 @@ public class VaccineService {
 				+ "		<th>Fee Type</th>\n"
 				+ "		<th>Date</th>\n"
 				+ "		<th>Age Limit</th>\n"
+				+ "		<th>available Dose1</th>\n"
+				+ "		<th>available Dose2</th>\n"
 				+ "		<th>Vaccine</th>");
 
 		centers.stream()
@@ -122,6 +124,8 @@ public class VaccineService {
 			.stream().forEach(session -> {
 				resp.append( "<td>"+session.date+"</td>\n ");
 				resp.append( "<td>"+session.min_age_limit+"</td>\n ");
+				resp.append( "<td>"+session.available_capacity_dose1+"</td>\n ");
+				resp.append( "<td>"+session.available_capacity_dose2+"</td>\n ");
 				resp.append( "<td>"+session.vaccine+"</td>\n ");
 			} );
 			resp.append( "</tr>");

@@ -18,6 +18,9 @@ public class Session {
     public int min_age_limit;
     public String vaccine;
     public List<String> slots;
+    public int available_capacity_dose1;
+    public int available_capacity_dose2;
+    
 	@Override
 	public String toString() {
 		return "Session [session_id=" + session_id + ", date=" + date + ", available_capacity=" + available_capacity
